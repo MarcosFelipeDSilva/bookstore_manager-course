@@ -22,5 +22,5 @@ public class Author {
     private String name;
 
     @Column(nullable = false)
-    private String age;
+    private Integer age;
 }
